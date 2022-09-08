@@ -304,6 +304,9 @@ nav li {
 .stats-section-left-col h2 {
   font-size: 3em;
 }
+.stats-section-left-col p {
+  margin-top: 1em;
+}
 
 .stats-section-right-col {
   width: 50%;
@@ -335,7 +338,7 @@ nav li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2.5em 0;
+  padding: 2.5em 0 5em 0;
 }
 
 .features-description-section-wrapper {
@@ -379,6 +382,41 @@ nav li {
   background: url("images/purplearrow.png");
   background-size: cover;
   background-position: center;
+}
+
+.bottom-features-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.bottom-features-section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1100px;
+  max-width: 1100px;
+}
+
+.bottom-features-section-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3em 0;
+}
+
+.bottom-features-section-text__h3 {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+.bottom-features-section-text__p {
+  width: 50%;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 1.8em;
 }
 
 @media screen and (max-width: 1200px) {
@@ -426,5 +464,23 @@ nav li {
   }
   .feature p {
     margin-top: 0.8em;
+  }
+  .stats-section-column-wrapper {
+    width: 850px;
+  }
+  .stats-section-left-col h2 {
+    font-size: 2.5em;
+  }
+  .stats-text__number {
+    font-size: 1.3em;
+  }
+  .features-description-section-wrapper {
+    width: 850px;
+  }
+  .features-description-section-text__h3 {
+    font-size: 2em;
+  }
+  .features-description-section-image {
+    width: 400px;
   }
 }/*# sourceMappingURL=style.css.map */
