@@ -121,7 +121,11 @@ nav li {
   padding: 1em 2.2em;
   font-size: 1em;
   font-weight: bold;
-  gap: 10px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.hero-btn:hover {
+  background: #742cc5;
 }
 
 .hero-main-rightcol {
