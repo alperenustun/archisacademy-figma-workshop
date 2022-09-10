@@ -10,11 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="hero">
-        <header>
+        <header data-aos="fade-right" data-aos-duration="1000">
             <nav>
                 <ul class="nav-list">
                     <li class="nav-list__item logo"><img src="images/Darklogo.png" alt="landify logo"></li>
@@ -36,18 +37,18 @@
             <div class="hero-main">
                 <div class="hero-main-leftcol">
                     <div class="hero-text-btn-wrapper">
-                        <h1>Organise projects.<br>Get more done.</h1>
-                        <button class="hero-btn">Get Started</button>
+                        <h1 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="500">Organise projects.<br>Get more done.</h1>
+                        <button data-aos="fade-up" data-aos-delay="1500" data-aos-duration="500" class="hero-btn">Get Started</button>
                     </div>
                 </div>
                 <div class="hero-main-rightcol">
-                    <img class="phone-mockup" src="images/Phone Mockup.png" alt="phone mockup">
+                    <img class="phone-mockup" src="images/Phone Mockup.png" alt="phone mockup" data-aos="flip-left" data-aos-delay="500" data-aos-duration="500">
                 </div>
             </div>
         </div>
     </div>
     <div class="logo-clouds">
-        <ul class="logo-clouds-list">
+        <ul class="logo-clouds-list" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300">
             <li><img class="logo-clouds-list__item-img" src="images/Logo Clouds/Airbnb Logo.png" alt="airbnb logo"></li>
             <li><img class="logo-clouds-list__item-img" src="images/Logo Clouds/Hubspot Logo.png" alt="hubspot logo">
             </li>
@@ -108,7 +109,7 @@
             <div class="testimonials-left-col">
                 <h2>Real Stories from <br>Real Customers</h2>
                 <p class="get-inspired">Get inspired by these stories.</p>
-                <div class="testimonial-card hubspot-card">
+                <div data-aos="flip-left" data-aos-delay="500" data-aos-duration="500" class="testimonial-card hubspot-card">
                     <img src="images/Testimonial/Layer 2.png" alt="hubspot logo">
                     <p class="testimonial-card__description">To quickly start my startup landing page design, I was
                         looking for a landing page UI Kit. Landify
@@ -119,7 +120,7 @@
                 </div>
             </div>
             <div class="testimonials-right-col">
-                <div class="testimonial-card airbnb-card">
+                <div class="testimonial-card airbnb-card" data-aos="flip-down" data-aos-delay="500" data-aos-duration="500">
                     <img src="images/Testimonial/Airbnb Logo.png" alt="airbnb logo">
                     <p class="testimonial-card__description">I used landify and created a landing page for my startup
                         within a week. The Landify UI Kit is
@@ -127,7 +128,7 @@
                     <p class="testimonial-card__name">Jane Cooper</p>
                     <span class="testimonial-card__job">CEO, Airbnb</span>
                 </div>
-                <div class="testimonial-card bookmyshow-card">
+                <div class="testimonial-card bookmyshow-card" data-aos="flip-up" data-aos-delay="500" data-aos-duration="500">
                     <img src="images/Testimonial/BookMyShow Logo.png" alt="bookmyshow logo">
                     <p class="testimonial-card__description">Landify saved our time in designing my company page.</p>
                     <p class="testimonial-card__name">Kristin Watson</p>
@@ -176,17 +177,17 @@
     </section>
     <section class="features-description-section">
         <div class="features-description-section-wrapper">
-            <img class="features-description-section-image" src="images/phone mockup pink.png" alt="phone mockup">
+            <img class="features-description-section-image" src="images/phone mockup pink.png" alt="phone mockup" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
             <div class="features-description-section-text">
-                <h3 class="features-description-section-text__h3">Headline</h3>
-                <p class="features-description-section-text__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <h3 class="features-description-section-text__h3" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="500">Headline</h3>
+                <p class="features-description-section-text__p" data-aos="fade-down" data-aos-delay="1500" data-aos-duration="500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras
                     adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra.</p>
-                <span class="features-description-section-text__span">Get started</span>
+                <span class="features-description-section-text__span" data-aos="fade-down" data-aos-delay="1500" data-aos-duration="500">Get started</span>
             </div>
         </div>
     </section>
-    <section class="bottom-features-section">
+    <section class="bottom-features-section" data-aos="fade-left" data-aos-delay="500" data-aos-duration="500" data-aos-offset="600">
         <div class="bottom-features-section-wrapper">
             <div class="bottom-features-section-text">
                 <h3 class="bottom-features-section-text__h3">Enter the world of all <br> fashion trends</h3>
@@ -233,6 +234,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
