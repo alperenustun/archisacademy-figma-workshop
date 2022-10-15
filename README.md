@@ -1,3 +1,3 @@
 # archisacademy-figma-workshop
 
-alperenustun.dev/figmaworkshop
+https://alperenustun.dev/figmaworkshop/
